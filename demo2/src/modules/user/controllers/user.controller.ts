@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 import { plainToInstance } from 'class-transformer';
 import { Auth } from 'src/modules/user/auth/auth.decorator';
-import { ROLE } from 'src/constant/role';
+import { ROLE } from 'src/common/constant/role';
 import {
   UserDtoCreate,
   UserDtoUpdate,

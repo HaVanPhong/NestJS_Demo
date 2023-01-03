@@ -9,7 +9,7 @@ import {
   OneToMany,
 } from 'typeorm';
 
-import { ROLE } from '../../../constant/role';
+import { ROLE } from '../../../common/constant/role';
 
 @Entity({
   name: 'user',
